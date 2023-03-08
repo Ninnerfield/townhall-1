@@ -14,13 +14,6 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
-section {
-	width: 525px;
-	float: right;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-}
 a:focus, a:hover {
 	font-style: italic;
 }
@@ -53,22 +46,26 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
-/* main {
-	padding: 0 30px; 
-	clear: left; 
-} */
-/* main h1 {
+
+/*
+main {
+	clear: left;
+}
+	*/
+
+/*
+main {
+	padding: 0 30px;
+}
+*/
+/*
+main h1 {
 	font-size: 150%;
 	padding: .3em 0;
     border-top: 3px solid #931420;
     border-bottom: 3px solid #931420;
-} */
-h1 {
-	font-size: 150%;
-	padding-top: .5em;
-	padding-bottom: .25em;
-	margin: 0;
 }
+*/
 main h2 {
 	color: #800000;
 	font-size: 130%;
@@ -92,14 +89,22 @@ main ul {
 	padding: 0 0 .25em 1.25em;
 }
 main li {
-	padding-bottom: .35em;
+	padding-bottom: .4em;
 }
 
 /* the styles for the article */
+
+h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0;
+}
+
 article {
 	padding: .5em 0;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
+	border-top: 2px solid maroon;
+	border-bottom: 2px solid maroon;
 }
 article h2 {
 	padding-top: 0;
@@ -108,26 +113,32 @@ article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-article img {
-	float: right;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	border: 1px solid black;
-}
-/* the styles for the aside */
-aside {
+
+/* ================================	
+		the styles for the aside
+===================================*/ 
+
+aside{
 	width: 215px;
 	float: right;
 	padding-left: 20px;
 	padding-bottom: 20px;
 }
+
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
 aside img {
 	padding-bottom: 1em;
+}
+
+article img{
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border: 1px solid black;
 }
 
 /* the styles for the footer */
@@ -139,4 +150,12 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+
+section{
+	width: 525px;
+	float: right;
+	padding: 0px 20px;
+	padding-bottom: 20px;
+
 }
